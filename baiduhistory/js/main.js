@@ -30,7 +30,7 @@ if(document.getElementById('history-container')){
             getDate = String(getDate);
         }
         var getMonthDate = "S" + getMonth + getDate;
-        return ["https://cdn.staticaly.com/gh/celestezj/Butterfly-card-history/master/baiduhistory/json/" + getMonth + ".json",getMonthDate]
+        return ["https://cdn.statically.io/gh/celestezj/Butterfly-card-history/master/baiduhistory/json/" + getMonth + ".json",getMonthDate]
     }
 	
 	function load_history_data_and_init_swiper(history_data, data){
